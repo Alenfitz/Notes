@@ -250,7 +250,7 @@ sudo rm -rf /Library/Receipts/MySQL*
 sudo rm -rf /var/db/receipts/com.mysql.*
 ```
 
-参考:[How do you uninstall MySQL from Mac OS X?](/How do you uninstall MySQL from Mac OS X?)
+参考:[https://stackoverflow.com/questions/1436425/how-do-you-uninstall-mysql-from-mac-os-x](https://stackoverflow.com/questions/1436425/how-do-you-uninstall-mysql-from-mac-os-x "How do you uninstall MySQL from Mac OS X?")
 
 or :[https://stackoverflow.com/questions/1436425/how-do-you-uninstall-mysql-from-mac-os-x](https://stackoverflow.com/questions/1436425/how-do-you-uninstall-mysql-from-mac-os-x)
 
