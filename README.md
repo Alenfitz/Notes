@@ -1,2 +1,2 @@
 # Notes
-notes about the footprints for learning
+notes about the footprints of learning
