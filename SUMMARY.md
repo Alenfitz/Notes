@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [Mac使用Homebrew安装mysql](macshi-yong-homebrew-an-zhuang-mysql.md)
-* [eclipse部署tomcat的辛酸历程](eclipsebu-shu-tomcat-de-xin-suan-li-cheng.md)
+* [Eclipse部署Tomcat的辛酸历程](eclipsebu-shu-tomcat-de-xin-suan-li-cheng.md)
 
