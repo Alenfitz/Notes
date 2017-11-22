@@ -21,7 +21,7 @@ Using CATALINA_TMPDIR: /usr/local/Cellar/apache-tomcat-9.0.1/temp
 Using JRE_HOME:        /Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home
 Using CLASSPATH:       /usr/local/Cellar/apache-tomcat-9.0.1/bin/bootstrap.jar:/usr/local/Cellar/apache-tomcat-9.0.1/bin/tomcat-juli.jar
 Tomcat started.
-MacBookPro:bin alenfitz$ 
+MacBookPro:bin alenfitz$
 ```
 
 打开浏览器 在地址栏输入 localhost:8080 验证 tomcat是否正常运行
@@ -33,13 +33,13 @@ MacBookPro:bin alenfitz$
 ```
 MacBookPro:~ alenfitz$ cd /usr/local/Cellar/apache-tomcat-9.0.1/logs/
 MacBookPro:logs alenfitz$ ls
-catalina.2017-11-21.log			localhost.2017-11-22.log
-catalina.2017-11-22.log			localhost_access_log.2017-11-21.txt
-catalina.out				localhost_access_log.2017-11-22.txt
-host-manager.2017-11-21.log		manager.2017-11-21.log
-host-manager.2017-11-22.log		manager.2017-11-22.log
+catalina.2017-11-21.log            localhost.2017-11-22.log
+catalina.2017-11-22.log            localhost_access_log.2017-11-21.txt
+catalina.out                localhost_access_log.2017-11-22.txt
+host-manager.2017-11-21.log        manager.2017-11-21.log
+host-manager.2017-11-22.log        manager.2017-11-22.log
 localhost.2017-11-21.log
-MacBookPro:logs alenfitz$ vim catalina.2017-11-22.log 
+MacBookPro:logs alenfitz$ vim catalina.2017-11-22.log
 ```
 
 日志中一般会记录出现的问题，排查问题，使得tomcat正常启动\(一般都不会有问题的\)
@@ -113,6 +113,5 @@ tomcat 不同版本匹配的JDK :[https://tomcat.apache.org/whichversion.html](h
 
 Eclipse启动Tomcat无法访问:[http://blog.csdn.net/wqjsir/article/details/7169838/](http://blog.csdn.net/wqjsir/article/details/7169838/)
 
-  
 
 
