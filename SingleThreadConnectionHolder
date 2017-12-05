@@ -1,0 +1,21 @@
+//线程安全的ConnectionHolder 类 引入 Java 提供的ThreadLocal 类该类保证一个类的实例变量在
+//各个线程中都有一份单独的拷贝，从而不会影响其他线程的实例变量
+public class SingleThreadConnectionHolder{
+      private static ThreadLocal<ConnectionHolder> localConnectionHolder =new ThreadLocal<ConnectionHolder>
+
+      public static Connection getConnection(DataSource dataSource)   throws SQLException{
+        return getConnectionHolder().getConnection(dataSource);
+      }
+
+      public static Connection removeConncetion(DataSource dataSource){
+        getConnectionHolder.removeConncetion(dataSource);
+      }
+      private static ConnectionHolder getConnectionHolder(){
+        ConnectionHolder connectionHolder =localConnectionHolder.get();
+        if (connectionHolder == null) {
+          connectionHolder = new ConnectionHolder();
+          localConnectionHolder.set(connectionHolder);
+        }
+        return connectionHolder;
+      }
+}
