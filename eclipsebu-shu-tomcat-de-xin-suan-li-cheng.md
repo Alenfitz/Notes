@@ -28,6 +28,8 @@ MacBookPro:bin alenfitz$
 
 其正常启动页面如下图:
 
+[https://github.com/Alenfitz/Notes/blob/master/assets/Screen%20Shot%202017-11-22%20at%2010.03.56.png](https://github.com/Alenfitz/Notes/blob/master/assets/Screen%20Shot%202017-11-22%20at%2010.03.56.png)
+
 ![](/assets/Screen Shot 2017-11-22 at 10.03.56.png)若未能正常启动 一般该页面都会报404 page not found 的错误,建议查看Tomcat 日志文件
 
 ```
@@ -112,6 +114,4 @@ tomcat 不同版本匹配的JDK :[https://tomcat.apache.org/whichversion.html](h
 ~~解决Tomcat版本不匹配~~:[How to use Tomcat 8.5.x and TomEE 7.x with Eclipse?](https://stackoverflow.com/questions/37024876/how-to-use-tomcat-8-5-x-and-tomee-7-x-with-eclipse)
 
 Eclipse启动Tomcat无法访问:[http://blog.csdn.net/wqjsir/article/details/7169838/](http://blog.csdn.net/wqjsir/article/details/7169838/)
-
-
 
