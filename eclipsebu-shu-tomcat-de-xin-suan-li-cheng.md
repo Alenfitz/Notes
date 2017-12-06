@@ -26,9 +26,7 @@ MacBookPro:bin alenfitz$
 
 打开浏览器 在地址栏输入 localhost:8080 验证 tomcat是否正常运行
 
-其正常启动页面如下图:
-
-!\[tomcat成功启动\]\(https://github.com/Alenfitz/Notes/blob/master/assets/Screen Shot 17-11-22 at 10.03.56.png\)![](/assets/Screen Shot 2017-11-22 at 10.03.56.png)若未能正常启动 一般该页面都会报404 page not found 的错误,建议查看Tomcat 日志文件
+其正常启动页面如下图:![](/assets/Screen Shot 2017-11-22 at 10.03.56.png)若未能正常启动 一般该页面都会报404 page not found 的错误,建议查看Tomcat 日志文件
 
 ```
 MacBookPro:~ alenfitz$ cd /usr/local/Cellar/apache-tomcat-9.0.1/logs/
